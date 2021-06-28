@@ -1,0 +1,38 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: rgb(21, 10, 175);
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  letter-spacing: 1px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hajar_box {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.first-box {
+  display: flex;
+  gap: 1rem;
+}
+
+.form,
+.percentage {
+  padding: 1rem;
+}
+.refresh {
+  padding: 1rem;
+  width: 10rem;
+  place-self: center;
+}
